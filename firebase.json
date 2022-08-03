@@ -1,10 +1,6 @@
 {
   "hosting": [
     {
-      "site": "duocnv-lab",
-      "public": "dist/duocnv-lab"
-    },
-    {
       "site": "duocnv-embed-app",
       "public": "dist/duocnv-embed-app"
     },

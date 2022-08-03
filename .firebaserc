@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "duocnv-lab"
+    "default": "duocnv-crosa"
   },
   "targets": {
     "duocnv-lab": {
@@ -10,9 +10,6 @@
         ],
         "duocnv-crosa": [
           "dist/duocnv-crosa"
-        ],
-        "duocnv-lab": [
-          "dist/duocnv-lab"
         ]
       }
     }

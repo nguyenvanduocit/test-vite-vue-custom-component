@@ -1,4 +1,6 @@
 import HelloWorld from './components/HelloWorld.ce.vue'
+import MyButton from './components/MyButton.vue'
 import { defineCustomElement } from 'vue'
-const ExampleElement = defineCustomElement(HelloWorld)
-customElements.define('hello-world', ExampleElement)
+customElements.define('hello-world',  defineCustomElement(HelloWorld))
+customElements.define('my-button',  defineCustomElement(MyButton))
+
