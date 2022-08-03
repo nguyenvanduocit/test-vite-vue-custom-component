@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "default": "duocnv-lab"
+  },
+  "targets": {
+    "duocnv-lab": {
+      "hosting": {
+        "duocnv-embed-app": [
+          "dist/duocnv-embed-app"
+        ],
+        "duocnv-crosa": [
+          "dist/duocnv-crosa"
+        ],
+        "duocnv-lab": [
+          "dist/duocnv-lab"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

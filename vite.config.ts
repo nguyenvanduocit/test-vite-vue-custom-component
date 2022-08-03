@@ -8,6 +8,12 @@ export default defineConfig({
       input: {
         crosa: fileURLToPath(new URL('./src/crosa.ts', import.meta.url)),
       },
-    },
+      output: {
+        dir: 'dist/duocnv-crosa',
+        entryFileNames: `[name].js`,
+        chunkFileNames: `[name].js`,
+        assetFileNames: `[name].[ext]`
+      }
+    }
   },
 })
